@@ -1,4 +1,4 @@
-<?php 
+﻿<?php 
 	
 	$server = "localhost";
 	$username = "root";
@@ -12,12 +12,7 @@
 
 	if($connection){
 		$select_db = mysqli_select_db($connection,$db_name);
-		if($select_db){
-			echo "YES!Connected";
-		}
-		else{
-			echo "Bad connection!";
-		}
+		
 	}
 	else{
 		echo "servere qoshulma bash tutmadi! ";

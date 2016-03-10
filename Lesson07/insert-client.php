@@ -4,7 +4,7 @@
 	<title>Insert Client</title>
 </head>
 <body>
-	<form>
+	<form action="insert.php" method="POST">
 
 		<fieldset>
 			
